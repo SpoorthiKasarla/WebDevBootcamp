@@ -1,0 +1,14 @@
+div{
+    
+  font-family: 'Piazzolla', serif;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
